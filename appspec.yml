@@ -8,7 +8,7 @@ hooks:
     - location: scripts/application_stop.sh
       timeout: 15
       runas: root
-  ApplicationStart:
+  ValidateService:
     - location: scripts/application_start.sh
       timeout: 15
       runas: root
