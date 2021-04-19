@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/api
+hooks:
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 15
+      runas: root
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      timeout: 15
+      runas: root

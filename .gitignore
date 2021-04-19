@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AwsCodeDeplyNetCoreApp/AwsCodeDeplyNetCoreApp/obj
+/AwsCodeDeplyNetCoreApp/AwsCodeDeplyNetCoreApp/bin/Debug/netcoreapp3.1
+/AwsCodeDeplyNetCoreApp/.vs/AwsCodeDeplyNetCoreApp/v16
+/AwsCodeDeplyNetCoreApp/AwsCodeDeplyNetCoreApp/bin/Release/netcoreapp3.1
